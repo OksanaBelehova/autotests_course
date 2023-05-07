@@ -2,14 +2,12 @@
 # минимальный и максимальный элементы списка;
 # сумму и среднее арифметическое с округлением до 2 знаков после запятой;
 
-
 def get_list_info(lst):
     # Здесь нужно написать код
     min_elem = min(lst)
     max_elem = max(lst)
     sum_list = sum(lst)
-    n = len(lst)
-    average = round(sum_list / n, 2)
+    average = round(sum_list / (len(lst)), 2)
     return min_elem, max_elem, sum_list, average
 
 # Ниже НИЧЕГО НЕ НАДО ИЗМЕНЯТЬ

@@ -1,13 +1,11 @@
 # Дан список. Найдите сумму элементом с четными индексами
 
-
 def even_sum(lst):
     sum_list = sum(lst[::2])
     print(sum_list)
     return sum_list
 
 # Ниже НИЧЕГО НЕ НАДО ИЗМЕНЯТЬ
-
 
 data = [
     [1, 2, 3, 4, 5, 6, 7],
